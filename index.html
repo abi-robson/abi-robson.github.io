@@ -1,133 +1,215 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Abi Robson | Portfolio</title>
+```
+<title>Abi Robson | Computer Science Portfolio</title>
 
-    <style>
-        /* Basic page styling */
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+<link rel="stylesheet" href="css/style.css">
+```
 
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f6f8;
-            color: #333;
-        }
-
-        /* Navigation bar */
-        nav {
-            background-color: #1f2937;
-            padding: 20px;
-            text-align: center;
-        }
-
-        nav h2 {
-            color: white;
-        }
-
-        /* Main hero section */
-        .hero {
-            min-height: 80vh;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-            padding: 40px 20px;
-        }
-
-        .hero h1 {
-            font-size: 48px;
-            margin-bottom: 15px;
-            color: #1f2937;
-        }
-
-        .hero h2 {
-            font-size: 24px;
-            font-weight: normal;
-            color: #4b5563;
-            margin-bottom: 20px;
-        }
-
-        .hero p {
-            max-width: 600px;
-            font-size: 18px;
-            line-height: 1.6;
-            margin-bottom: 30px;
-        }
-
-        /* Button */
-        .button {
-            display: inline-block;
-            padding: 12px 25px;
-            background-color: #2563eb;
-            color: white;
-            text-decoration: none;
-            border-radius: 6px;
-            font-size: 16px;
-        }
-
-        .button:hover {
-            background-color: #1d4ed8;
-        }
-
-        /* Footer */
-        footer {
-            background-color: #1f2937;
-            color: white;
-            text-align: center;
-            padding: 20px;
-        }
-
-        /* Mobile styling */
-        @media (max-width: 600px) {
-            .hero h1 {
-                font-size: 36px;
-            }
-
-            .hero h2 {
-                font-size: 20px;
-            }
-        }
-    </style>
 </head>
 
 <body>
 
-    <!-- Navigation -->
-    <nav>
-        <h2>Abi Robson | Portfolio</h2>
-    </nav>
+```
+<!-- Navigation Bar -->
+<header class="navbar">
 
-    <!-- Main Homepage -->
-    <main class="hero">
+    <nav class="nav-container">
 
-        <h1>Hi, I'm Abi Robson</h1>
-
-        <h2>Computer Science Student & Aspiring Software Developer</h2>
-
-        <p>
-            Welcome to my online portfolio. This website showcases
-            the projects, skills and experience I have developed
-            throughout my Computer Science degree.
-        </p>
-
-        <a href="#" class="button">
-            View My Projects
+        <a href="index.html" class="logo">
+            Abi Robson
         </a>
 
-    </main>
+        <div class="nav-links">
+            <a href="index.html" class="active">Home</a>
+            <a href="about.html">About Me</a>
+            <a href="projects.html">Projects</a>
+            <a href="contact.html">Contact</a>
+        </div>
 
-    <!-- Footer -->
-    <footer>
-        <p>&copy; 2026 Abi Robson. All rights reserved.</p>
-    </footer>
+    </nav>
+
+</header>
+
+
+<!-- Main Content -->
+<main>
+
+    <!-- Hero / Header Section -->
+    <section class="hero">
+
+        <div class="hero-content">
+
+            <p class="intro-label">
+                COMPUTER SCIENCE STUDENT
+            </p>
+
+            <h1>
+                Hi, I'm Abi Robson.
+            </h1>
+
+            <h2>
+                Welcome to my portfolio.
+            </h2>
+
+            <p class="hero-description">
+                I am a Computer Science student with an interest in
+                software development, data management and technology.
+                This portfolio showcases some of the projects,
+                coursework and skills I have developed throughout
+                my university studies.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="projects.html" class="primary-button">
+                    View My Projects
+                </a>
+
+                <a href="about.html" class="secondary-button">
+                    About Me
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- About Introduction Section -->
+    <section class="introduction">
+
+        <div class="section-container">
+
+            <div class="section-heading">
+
+                <p class="section-label">
+                    ABOUT ME
+                </p>
+
+                <h2>
+                    A little about me
+                </h2>
+
+            </div>
+
+            <div class="introduction-content">
+
+                <p>
+                    I am currently studying Computer Science and
+                    developing my knowledge across a range of areas
+                    within computing and software development.
+                </p>
+
+                <p>
+                    Throughout my degree, I have worked on a variety
+                    of individual and group projects involving
+                    programming, databases, web development and
+                    software design. I enjoy solving problems and
+                    developing practical solutions using technology.
+                </p>
+
+                <p>
+                    I am particularly interested in pursuing a career
+                    in software development or data management, and
+                    I am continuing to develop my technical and
+                    professional skills.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+
+        <div class="section-container">
+
+            <div class="section-heading">
+
+                <p class="section-label">
+                    GET IN TOUCH
+                </p>
+
+                <h2>
+                    Contact Me
+                </h2>
+
+                <p>
+                    If you would like to get in touch, you can contact
+                    me using the details below.
+                </p>
+
+            </div>
+
+
+            <div class="contact-details">
+
+                <div class="contact-item">
+
+                    <span class="contact-title">
+                        Email
+                    </span>
+
+                    <a href="mailto:your.email@example.com">
+                        your.email@example.com
+                    </a>
+
+                </div>
+
+
+                <div class="contact-item">
+
+                    <span class="contact-title">
+                        LinkedIn
+                    </span>
+
+                    <a href="#" target="_blank">
+                        View my LinkedIn profile
+                    </a>
+
+                </div>
+
+
+                <div class="contact-item">
+
+                    <span class="contact-title">
+                        GitHub
+                    </span>
+
+                    <a href="#" target="_blank">
+                        View my GitHub profile
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+</main>
+
+
+<!-- Footer -->
+<footer>
+
+    <p>
+        © 2026 Abi Robson. All rights reserved.
+    </p>
+
+</footer>
+```
 
 </body>
 </html>
