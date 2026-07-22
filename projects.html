@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects | Abi Robson</title>
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f6f8;
+        color: #333;
+    }
+
+    nav {
+        background-color: #1f2937;
+        padding: 20px;
+        text-align: center;
+    }
+
+    nav h2 {
+        color: white;
+        margin-bottom: 15px;
+    }
+
+    nav a {
+        color: white;
+        text-decoration: none;
+        margin: 0 15px;
+        font-size: 16px;
+    }
+
+    nav a:hover {
+        text-decoration: underline;
+    }
+
+    .page-header {
+        text-align: center;
+        padding: 60px 20px 30px;
+    }
+
+    .page-header h1 {
+        font-size: 42px;
+        color: #1f2937;
+        margin-bottom: 15px;
+    }
+
+    .page-header p {
+        max-width: 650px;
+        margin: auto;
+        font-size: 18px;
+        line-height: 1.6;
+        color: #4b5563;
+    }
+
+    .projects-container {
+        max-width: 1100px;
+        margin: 30px auto 60px;
+        padding: 0 20px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+    }
+
+    .project-section {
+        background-color: white;
+        padding: 35px;
+        border-radius: 8px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .project-section h2 {
+        color: #1f2937;
+        font-size: 26px;
+        margin-bottom: 15px;
+    }
+
+    .project-section p {
+        color: #4b5563;
+        font-size: 16px;
+        line-height: 1.7;
+        margin-bottom: 25px;
+    }
+
+    .button {
+        display: inline-block;
+        width: fit-content;
+        padding: 12px 25px;
+        background-color: #2563eb;
+        color: white;
+        text-decoration: none;
+        border-radius: 6px;
+        font-size: 16px;
+    }
+
+    .button:hover {
+        background-color: #1d4ed8;
+    }
+
+    .individual-projects {
+        grid-column: 1 / -1;
+    }
+
+    footer {
+        background-color: #1f2937;
+        color: white;
+        text-align: center;
+        padding: 20px;
+    }
+
+    @media (max-width: 700px) {
+        .projects-container {
+            grid-template-columns: 1fr;
+        }
+
+        .individual-projects {
+            grid-column: auto;
+        }
+
+        .page-header h1 {
+            font-size: 34px;
+        }
+
+        nav a {
+            display: inline-block;
+            margin: 5px 10px;
+        }
+    }
+</style>
+
+
+</head>
+
+<body>
+
+```
+<nav>
+    <h2>Abi Robson | Portfolio</h2>
+
+    <a href="index.html">Home</a>
+    <a href="projects.html">Projects</a>
+    <a href="about.html">About Me</a>
+    <a href="contact.html">Contact</a>
+</nav>
+
+<header class="page-header">
+    <h1>My Projects</h1>
+
+    <p>
+        Explore the projects and assignments I have completed throughout
+        my Computer Science degree, as well as individual projects I have
+        worked on outside of my university studies.
+    </p>
+</header>
+
+<main class="projects-container">
+
+    <section class="project-section">
+        <div>
+            <h2>Year 1</h2>
+
+            <p>
+                During my first year at university, I developed the
+                foundations of my Computer Science knowledge. My studies
+                covered programming, software development, databases,
+                computer systems and fundamental concepts in computing.
+            </p>
+        </div>
+
+        <a href="year1.html" class="button">
+            View Year 1 Projects
+        </a>
+    </section>
+
+    <section class="project-section">
+        <div>
+            <h2>Year 2</h2>
+
+            <p>
+                My second year focused on developing more advanced
+                programming and software development skills. I worked
+                with databases, web development, systems design and
+                software engineering principles.
+            </p>
+        </div>
+
+        <a href="year2.html" class="button">
+            View Year 2 Projects
+        </a>
+    </section>
+
+    <section class="project-section">
+        <div>
+            <h2>Year 3</h2>
+
+            <p>
+                During my third year, I expanded my technical knowledge
+                through more advanced software development, database
+                management, data analysis and larger project-based
+                assignments.
+            </p>
+        </div>
+
+        <a href="year3.html" class="button">
+            View Year 3 Projects
+        </a>
+    </section>
+
+    <section class="project-section">
+        <div>
+            <h2>Year 4</h2>
+
+            <p>
+                My final year focuses on applying the knowledge and skills
+                developed throughout my degree to larger and more complex
+                projects, with an emphasis on professional software
+                development and independent project work.
+            </p>
+        </div>
+
+        <a href="year4.html" class="button">
+            View Year 4 Projects
+        </a>
+    </section>
+
+    <section class="project-section individual-projects">
+        <div>
+            <h2>Individual Projects</h2>
+
+            <p>
+                This section showcases projects I have worked on
+                independently outside of specific university modules.
+                These projects demonstrate my personal interests,
+                practical programming skills and experience working with
+                different technologies and development tools.
+            </p>
+        </div>
+
+        <a href="individual-projects.html" class="button">
+            View Individual Projects
+        </a>
+    </section>
+
+</main>
+
+<footer>
+    <p>&copy; 2026 Abi Robson. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
