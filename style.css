@@ -533,3 +533,84 @@ padding-right: 20px;
 }
 
 }
+
+/* ================================
+Year Project Pages
+================================ */
+
+.year-project-list {
+display: flex;
+flex-direction: column;
+gap: 25px;
+}
+
+.year-project {
+background-color: #f7f7f5;
+border: 1px solid #e5e5e5;
+border-radius: 5px;
+padding: 45px;
+}
+
+.year-project-content {
+max-width: 850px;
+}
+
+.year-project h3 {
+color: #2b2b2b;
+font-size: 30px;
+font-weight: 500;
+margin-bottom: 20px;
+}
+
+.year-project-content > p {
+color: #5f5f5f;
+font-size: 17px;
+line-height: 1.8;
+margin-bottom: 35px;
+}
+
+.project-details {
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+gap: 25px;
+}
+
+.project-detail {
+background-color: #ffffff;
+border: 1px solid #e5e5e5;
+padding: 25px;
+border-radius: 5px;
+}
+
+.project-detail-title {
+display: block;
+color: #777777;
+font-size: 12px;
+font-weight: 600;
+letter-spacing: 1.5px;
+text-transform: uppercase;
+margin-bottom: 10px;
+}
+
+.project-detail p {
+color: #5f5f5f;
+font-size: 15px;
+line-height: 1.7;
+}
+
+@media (max-width: 768px) {
+
+.year-project {
+padding: 30px;
+}
+
+.project-details {
+grid-template-columns: 1fr;
+gap: 15px;
+}
+
+.year-project h3 {
+font-size: 26px;
+}
+
+}
