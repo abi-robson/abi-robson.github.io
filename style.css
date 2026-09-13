@@ -615,7 +615,7 @@ font-size: 26px;
 
 }
 /* ================================
-Project Screenshots
+Project Screenshot
 ================================ */
 
 .screenshots-section {
@@ -652,13 +652,8 @@ font-size: 16px;
 line-height: 1.7;
 }
 
-.screenshot-grid {
-display: grid;
-grid-template-columns: repeat(2, 1fr);
-gap: 25px;
-}
-
 .screenshot-item {
+max-width: 1000px;
 background-color: #ffffff;
 border: 1px solid #e5e5e5;
 border-radius: 5px;
@@ -694,17 +689,12 @@ line-height: 1.7;
 padding: 40px 25px;
 }
 
-.screenshot-grid {
-grid-template-columns: 1fr;
-gap: 20px;
+.screenshot-caption {
+padding: 20px;
 }
 
 .screenshots-heading h2 {
 font-size: 32px;
-}
-
-.screenshot-caption {
-padding: 20px;
 }
 
 }
