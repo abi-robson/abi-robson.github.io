@@ -708,7 +708,8 @@ padding-right: 20px;
 
 }
 .project-screenshot {
-margin-top: 35px;
+margin-top: 20px;
+max-width: 700px;
 background-color: #ffffff;
 border: 1px solid #e5e5e5;
 border-radius: 5px;
@@ -722,31 +723,32 @@ height: auto;
 }
 
 .project-screenshot .screenshot-caption {
-padding: 20px 25px;
+padding: 15px 20px;
 }
 
 .project-screenshot .screenshot-caption h4 {
 color: #2b2b2b;
-font-size: 19px;
+font-size: 18px;
 font-weight: 500;
-margin-bottom: 6px;
+margin-bottom: 5px;
 }
 
 .project-screenshot .screenshot-caption p {
 color: #666666;
-font-size: 15px;
-line-height: 1.7;
+font-size: 14px;
+line-height: 1.6;
 margin-bottom: 0;
 }
 
 @media (max-width: 768px) {
 
 .project-screenshot {
-margin-top: 30px;
+margin-top: 20px;
+max-width: 100%;
 }
 
 .project-screenshot .screenshot-caption {
-padding: 18px 20px;
+padding: 15px 20px;
 }
 
 }
